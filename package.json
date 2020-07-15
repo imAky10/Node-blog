@@ -2,7 +2,7 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "A simple blog application using node js",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "devStart": "nodemon server.js",
     "start": "node server.js"
@@ -23,5 +23,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": "12.14.1"
   }
 }
